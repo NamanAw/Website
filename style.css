@@ -8,7 +8,7 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(IMG_3968.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 200vh;
 }
 .navbar{
      width: 1500px;
@@ -25,19 +25,19 @@
 }
 .logo
 {
-    color: #ff7200;
-    font-size: 30px;
+    color: #ff0000f8;
+    font-size: 50px;
     font-family: Arial;
-    padding-left: 40px;
+    padding-left:8px;
     float: left;
-    padding-top: 10px;
+    padding-top: 14px;
 }
 
 .menu
 {
- width: 350px;
+ width: 310px;
  float: left;
- height: 80px;
+ height: 4000px;
 
 }
 ul{
@@ -48,9 +48,9 @@ ul{
 }
 ul li{
     list-style: none;
-    margin-left: 65px;
-    margin-top: 27px;
-    font-size: 14px;
+    margin-left: 170px;
+    margin-top: 30px;
+    font-size: 24px;
 }
 ul li a{
  text-decoration: none;
@@ -62,37 +62,8 @@ transition: 0.4s ease-in-out;
 ul li a:hover{
     color: blue;
 }
-.search{
-    width: 330px;
-    float: left;
-    margin-left: 270px;
-}
-.srch{
-    font-family: 'Times New Roman';
-    width: 170px;
-    height: 2px;
-    background: transparent;
-    border: 1px solid blue;
-    margin-top: 13px;
-    color: white;
-    border-right: none;
-    font-size: 12px;
-    float: left;
-    padding: 15px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-}
-.btn{
-    width: 100px;
-    height: 40px;
-    background: #ff7200;
-    border: 2px solid orange;
-    margin-top: 13px;
-    color: white;
-    font-size: 12px;
-    border-bottom-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
+
+
 .btn:focus{
     outline: none;
 
